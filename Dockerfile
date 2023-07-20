@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-WORKDIR /app
+WORKDIR /nuxt
 COPY . .
 
 RUN npm install
